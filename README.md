@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FinBoard – Customizable Finance Dashboard
+
+FinBoard is a real-time finance monitoring dashboard where users can build their own personalized finance dashboard by connecting to different financial APIs.  
+It supports tables, charts, and cards as widgets, enabling users to fetch stock or crypto data and visualize them in real time.
+
+**Live Demo:** [FinBoard on Vercel](https://groww-assignment-mauve.vercel.app/)
+
+---
+
+## Features
+
+### Widget Management
+- Add widgets dynamically (Table, Chart, Finance Cards)
+- Remove unwanted widgets easily
+- Configure widgets with API endpoints, refresh intervals, and field selection
+- Planned: drag-and-drop widget rearrangement
+
+### Data Integration
+- Connect to financial APIs such as Finnhub, Alpha Vantage, and others
+- Real-time updates with configurable refresh intervals
+- Caching mechanism to reduce redundant API calls
+
+### Custom Visualizations
+- Line and Candle charts with interval selection (Daily, Weekly, Monthly)
+- Paginated and searchable tables
+- Finance cards for watchlists, market movers, and performance data
+
+### User Experience
+- Intuitive dashboard builder
+- Responsive design for multiple screen sizes
+- Graceful handling of loading, error, and empty states
+
+### Persistence and Sharing
+- Auto-save widget configurations in browser storage
+- Import and export dashboard configuration as JSON
+- Dashboard state recovery on page refresh
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js  
+- **Styling:** Tailwind CSS, Styled Components  
+- **State Management:** Redux Toolkit, Zustand  
+- **Data Visualization:** Recharts / Chart.js  
+- **Deployment:** Vercel  
+
+---
+
+## Screenshots
+
+### Dashboard – Empty State
+![Dashboard Empty](./screenshots/Screenshot-2025-09-04-185759.png)
+
+### Add Widget (API Integration)
+![Add Widget](./screenshots/Screenshot-2025-09-04-185829.png)
+
+### Table Widget Example
+![Table Widget](./screenshots/Screenshot-2025-09-04-180137.png)
+
+### Chart Widget Example
+![Chart Widget](./screenshots/Screenshot-2025-09-04-195255.png)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
 
-```bash
+git clone https://github.com/riddhiJainSDE/Groww_Assignment.git
+cd Groww_Assignment
+2. Install Dependencies
+npm install
+
+3. Configure Environment Variables
+
+Create a .env.local file in the root directory and add:
+
+NEXT_PUBLIC_FINNHUB_API_KEY=your_api_key_here
+
+4. Run the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application will be available at http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Requirements (from assignment)
 
-## Learn More
+Real-time dashboard with customizable widgets
 
-To learn more about Next.js, take a look at the following resources:
+Integration with multiple financial APIs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+State management using Redux/Zustand
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Data persistence and dashboard recovery
 
-## Deploy on Vercel
+Clean, maintainable, and scalable code
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Future Enhancements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Light/Dark mode toggle
+
+Real-time updates via WebSockets
+
+Pre-built dashboard templates
+
+Drag-and-drop widget positioning
