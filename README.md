@@ -66,6 +66,42 @@ It supports tables, charts, and cards as widgets, enabling users to fetch stock 
 ## Getting Started
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/riddhiJainSDE/Groww_Assignment.git
 cd Groww_Assignment
+2. Install Dependencies
+npm install
+
+3. Configure Environment Variables
+
+Create a .env.local file in the root directory and add:
+
+NEXT_PUBLIC_FINNHUB_API_KEY=your_api_key_here
+
+4. Run the Development Server
+npm run dev
+
+
+The application will be available at http://localhost:3000.
+
+Requirements (from assignment)
+
+Real-time dashboard with customizable widgets
+
+Integration with multiple financial APIs
+
+State management using Redux/Zustand
+
+Data persistence and dashboard recovery
+
+Clean, maintainable, and scalable code
+
+Future Enhancements
+
+Light/Dark mode toggle
+
+Real-time updates via WebSockets
+
+Pre-built dashboard templates
+
+Drag-and-drop widget positioning
