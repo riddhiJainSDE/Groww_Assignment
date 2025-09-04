@@ -59,7 +59,7 @@ It supports tables, charts, and cards as widgets, enabling users to fetch stock 
 ![Table Widget](./screenshots/Screenshot-2025-09-04-180137.png)
 
 ### Chart Widget Example
-![Chart Widget](./screenshots/Screenshot-2025-09-04-195255.png)
+![Chart Widget](screenshots/Screenshot 2025-09-04 180137.png)
 
 ---
 
