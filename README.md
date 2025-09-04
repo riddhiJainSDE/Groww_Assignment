@@ -46,20 +46,19 @@ It supports tables, charts, and cards as widgets, enabling users to fetch stock 
 - **Deployment:** Vercel  
 
 ---
-
 ## **Screenshots**
 
 ### Dashboard – Empty State
-![Dashboard Empty](./screenshots/Screenshot-2025-09-04-185759.png)
+![Dashboard Empty](./screenshots/Empty_State.png)
 
 ### Add Widget (API Integration)
-![Add Widget](./screenshots/Screenshot-2025-09-04-185829.png)
+![Add Widget](./screenshots/Adding_widgets.png)
 
 ### Table Widget Example
-![Table Widget](./screenshots/Screenshot-2025-09-04-180137.png)
+![Table Widget](./screenshots/table.png)
 
 ### Chart Widget Example
-![Chart Widget](./screenshots/Screenshot-2025-09-04-195255.png)
+![Chart Widget](./screenshots/chart.png)
 
 ---
 
